@@ -117,7 +117,21 @@
                     <p id="see_more">Tout afficher</p>
                 </div>
             </aside>
+
             <div class="video_container">
+                <div class="people_information_container">
+                    <div class="fake_photo_bigger"></div>
+                    <p class="artist_name"></p>
+                    <i></i>
+                    <p class="video_description"></p>
+                    <p class="music"></p>
+                </div>
+
+                <!-- Video player -->
+                <div class="video">
+                    <img src="" alt="">
+                    <!-- TODO: Add logo like, comments, share maybe with screen or div ? -->
+                </div>
 
             </div>
         </section>
