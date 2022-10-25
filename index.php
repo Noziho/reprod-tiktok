@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TikTok - Make your Day</title>
+    <title>TikTok - Make Your Day</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/e40f017040.js" crossorigin="anonymous" defer></script>
 </head>
@@ -117,7 +117,9 @@
                     <p id="see_more">Tout afficher</p>
                 </div>
             </aside>
-            <div class="video_container"></div>
+            <div class="video_container">
+
+            </div>
         </section>
     </main>
 </body>

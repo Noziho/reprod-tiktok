@@ -21,6 +21,9 @@ header {
     width: 100%;
     height: 6rem;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    position: fixed;
+    z-index: 10;
+    background: white;
 }
 
 #header_container {
@@ -114,15 +117,16 @@ main {
 section {
     width: 100%;
     display: flex;
-    margin-top: 5rem;
+    margin-top: 9.5rem;
 }
 
 
 aside {
     width: 35%;
+    height: 60rem;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    overflow-y: scroll;
 }
 
 aside > div {
@@ -138,11 +142,6 @@ aside > div {
     margin-top: 2rem;
 }
 
-#test {
-    width: 100%;
-    height: 30rem;
-}
-
 #login_text{
     margin-top: 2rem;
     color: rgba(22, 24, 35, .5);
@@ -152,6 +151,7 @@ aside > div {
     border: 2px solid red;
     margin-left: 5rem;
     width: 100%;
+    height: 200rem;
 }
 
 .second_logged_button {
