@@ -148,10 +148,19 @@ aside > div {
 }
 
 .video_container {
-    border: 2px solid red;
     margin-left: 5rem;
     width: 100%;
-    height: 200rem;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.people_information_container {
+    margin-left: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    width: 40rem;
+    align-items: center;
 }
 
 .second_logged_button {
@@ -199,4 +208,62 @@ aside > div {
 #see_more {
     color: #FE2C55;
     font-weight: lighter;
+}
+
+.video {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-top: 3rem;
+    padding-left: 5rem;
+}
+
+.video > div {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 37rem;
+    margin-left: 2.5rem;
+}
+
+#fake_video {
+    width: 33rem;
+    height: 60rem;
+    border-radius: 4px;
+}
+
+.fake_photo_bigger {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 360px;
+    background: black;
+}
+
+
+.video_description, .music {
+    margin-left: 6.2rem;
+}
+
+.fa-music {
+    font-size: 1rem;
+}
+
+.fa-heart, .fa-comment-dots, .fa-share {
+    font-size: 2rem;
+}
+
+.small_logo_for_video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 360px;
+    background: rgba(22, 24, 35, .06);
+    width: 5rem;
+    height: 5rem;
+    margin-top: 1rem;
+}
+
+.video > div > div + p {
+    font-size: 1.2rem;
+    text-align: center;
 }

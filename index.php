@@ -121,17 +121,26 @@
             <div class="video_container">
                 <div class="people_information_container">
                     <div class="fake_photo_bigger"></div>
-                    <p class="artist_name"></p>
-                    <i></i>
-                    <p class="video_description"></p>
-                    <p class="music"></p>
+                    <p class="artist_name"><b> Ah ça oui ! </b></p>
+                    <i> Ah ça oui ! </i>
+                    <p class="video_description">Ah ça oui !Ah ça oui !Ah ça oui !Ah ça oui !</p>
+                    <p class="music"><i class="fa-solid fa-music"></i><b>"Ah ça oui !" song by Ah ça oui !</b></p>
                 </div>
 
                 <!-- Video player -->
                 <div class="video">
-                    <img src="" alt="">
-                    <!-- TODO: Add logo like, comments, share maybe with screen or div ? -->
+                    <img id="fake_video" src="fake_tiktok.png" alt="TikTok Video">
+                    <div>
+                        <div class="small_logo_for_video"><i class="fa-solid fa-heart"></i></div>
+                        <p>666.6K</p>
+                        <div class="small_logo_for_video"><i class="fa-solid fa-comment-dots"></i></div>
+                        <p>666</p>
+                        <div class="small_logo_for_video"><i class="fa-solid fa-share"></i></div>
+                        <p>66</p>
+                    </div>
                 </div>
+
+
 
             </div>
         </section>
